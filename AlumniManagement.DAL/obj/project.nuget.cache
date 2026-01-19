@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ocljCkQHTW6jlhlfO9WWkBqHTvvf7g8asTmwh0Fns+xY0i5lZO++bKGtuB6PqZzTYgcOM9RxHVWdge5Lg0XEew==",
+  "dgSpecHash": "87vPupKW9ajfFf+KJrhml6UDQWMt8GkkGWMnsBPpASzGCHQ8nbWhSl+N7wnDo6cQoCMBGN6yo4XLBa6OM70QOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\AlumniManagement.DAL\\AlumniManagement.DAL.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,8 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\npgsql\\7.0.7\\npgsql.7.0.7.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.18\\npgsql.entityframeworkcore.postgresql.7.0.18.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",

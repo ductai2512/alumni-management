@@ -9,7 +9,42 @@ namespace AlumniManagement.DAL.Data
         {
 
         }
+        public override int SaveChanges()
+    {
+        ConvertDateTimeToUtc();
+        return base.SaveChanges();
+    }
 
+    // 🔴 VÀ ĐOẠN NÀY
+    public override Task<int> SaveChangesAsync(
+        CancellationToken cancellationToken = default)
+    {
+        ConvertDateTimeToUtc();
+        return base.SaveChangesAsync(cancellationToken);
+    }
+
+    // 🔴 HÀM XỬ LÝ UTC
+    private void ConvertDateTimeToUtc()
+    {
+        foreach (var entry in ChangeTracker.Entries())
+        {
+            foreach (var property in entry.Properties)
+            {
+                if (property.CurrentValue is DateTime dateTime)
+                {
+                    if (dateTime.Kind == DateTimeKind.Local)
+                    {
+                        property.CurrentValue = dateTime.ToUniversalTime();
+                    }
+                    else if (dateTime.Kind == DateTimeKind.Unspecified)
+                    {
+                        property.CurrentValue =
+                            DateTime.SpecifyKind(dateTime, DateTimeKind.Utc);
+                    }
+                }
+            }
+        }
+    }
         public DbSet<Alumni> Alumni { get; set; }
         public DbSet<Account> Accounts { get; set; }
         public DbSet<Event> Events { get; set; }
@@ -58,8 +93,11 @@ namespace AlumniManagement.DAL.Data
                 .IsUnique();
 
             modelBuilder.Entity<Account>()
-                .HasIndex(a => a.Username)
-                .IsUnique();
+                .HasOne(ac => ac.Alumni)
+                .WithOne(a => a.Account)
+                .HasForeignKey<Account>(ac => ac.AlumniId)
+                .IsRequired()  // ← Thêm dòng này
+                .OnDelete(DeleteBehavior.Cascade);
 
             // Default values
             modelBuilder.Entity<Alumni>()

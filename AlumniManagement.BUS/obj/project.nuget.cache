@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JKnBM31jJEgfubOMQX55S2hiik3f8bwkLN+lF5HXq0AcR6RYxxmjfByUAAM1VnXt9FNP+il9G+NYjdUFzpH+WA==",
+  "dgSpecHash": "J0dYnXbV5b5xkSj37lEG3RmWgGwnG10qFPx5/afIEGaKu6EACdsqtFgCTR6rypIC0FSPgelxhOAFz2u1YKAo/g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\AlumniManagement.BUS\\AlumniManagement.BUS.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,8 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\npgsql\\7.0.7\\npgsql.7.0.7.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.18\\npgsql.entityframeworkcore.postgresql.7.0.18.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",

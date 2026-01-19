@@ -389,6 +389,31 @@
           }
         }
       },
+      "Npgsql/7.0.7": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Npgsql.dll": {
+            "assemblyVersion": "7.0.7.0",
+            "fileVersion": "7.0.7.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/7.0.18": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.20",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.20",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.20",
+          "Npgsql": "7.0.7"
+        },
+        "runtime": {
+          "lib/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "7.0.18.0",
+            "fileVersion": "7.0.18.0"
+          }
+        }
+      },
       "System.Configuration.ConfigurationManager/6.0.1": {
         "dependencies": {
           "System.Security.Cryptography.ProtectedData": "6.0.0",
@@ -553,7 +578,8 @@
       "AlumniManagement.DAL/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.20",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.20"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.20",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.18"
         },
         "runtime": {
           "AlumniManagement.DAL.dll": {}
@@ -781,6 +807,20 @@
       "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "Npgsql/7.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A3BjyNebHjw/MahM6n3VnKbxrj/hQnMROEkUNUTjhUVv7yvcGnfBgw/FszahT9uCR23AVD2N/0Tvw1aHgxr9Gg==",
+      "path": "npgsql/7.0.7",
+      "hashPath": "npgsql.7.0.7.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/7.0.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W+mFtJ1D4kSsCIBMScaq3tq8jdoR0Healb6knhSKqnlIoGGQwkHltHMsFeWacieLQPA+e4UrIgucfDpRpRXQRA==",
+      "path": "npgsql.entityframeworkcore.postgresql/7.0.18",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.7.0.18.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/6.0.1": {
       "type": "package",
