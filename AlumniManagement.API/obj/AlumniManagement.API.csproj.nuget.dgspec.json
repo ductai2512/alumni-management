@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\alumnimanagement.api\\AlumniManagement.API.csproj": {}
+    "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\AlumniManagement.API\\AlumniManagement.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\alumnimanagement.api\\AlumniManagement.API.csproj": {
+    "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\AlumniManagement.API\\AlumniManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\alumnimanagement.api\\AlumniManagement.API.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\AlumniManagement.API\\AlumniManagement.API.csproj",
         "projectName": "AlumniManagement.API",
-        "projectPath": "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\alumnimanagement.api\\AlumniManagement.API.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\AlumniManagement.API\\AlumniManagement.API.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\alumnimanagement.api\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\AlumniManagement.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,6 +67,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.20, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -225,6 +229,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.20, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
             }
           },
           "imports": [

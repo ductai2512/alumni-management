@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BWKPxMNvVUJtWFu61GQL19O3W56Mx75wHJY1/ZWsJDthqlCdU75XnyFeI/194uamE3LzDGI4264Ywtz/vVocdA==",
+  "dgSpecHash": "Z+AU58Q2lKLT4Q2qUj63oo/pKdbffybSL/YUg2pdOIyXkZSmgiQH31L+ztZxvKOIswWrhLf7swf7utTDSJTeAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\alumnimanagement.api\\AlumniManagement.API.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\wa\\alumnimanagement\\AlumniManagement.API\\AlumniManagement.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -42,6 +42,8 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\npgsql\\7.0.7\\npgsql.7.0.7.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.18\\npgsql.entityframeworkcore.postgresql.7.0.18.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
