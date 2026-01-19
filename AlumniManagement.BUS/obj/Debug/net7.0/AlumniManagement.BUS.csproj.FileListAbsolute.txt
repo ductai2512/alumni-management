@@ -1,0 +1,17 @@
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\bin\Debug\net7.0\AlumniManagement.BUS.deps.json
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\bin\Debug\net7.0\AlumniManagement.BUS.dll
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\bin\Debug\net7.0\AlumniManagement.BUS.pdb
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\bin\Debug\net7.0\AlumniManagement.DAL.dll
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\bin\Debug\net7.0\AlumniManagement.Shared.dll
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\bin\Debug\net7.0\AlumniManagement.DAL.pdb
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\bin\Debug\net7.0\AlumniManagement.Shared.pdb
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\obj\Debug\net7.0\AlumniManagement.BUS.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\obj\Debug\net7.0\AlumniManagement.BUS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\obj\Debug\net7.0\AlumniManagement.BUS.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\obj\Debug\net7.0\AlumniManagement.BUS.AssemblyInfo.cs
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\obj\Debug\net7.0\AlumniManagement.BUS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\obj\Debug\net7.0\AlumniManagement.BUS.csproj.CopyComplete
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\obj\Debug\net7.0\AlumniManagement.BUS.dll
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\obj\Debug\net7.0\refint\AlumniManagement.BUS.dll
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\obj\Debug\net7.0\AlumniManagement.BUS.pdb
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.BUS\obj\Debug\net7.0\ref\AlumniManagement.BUS.dll

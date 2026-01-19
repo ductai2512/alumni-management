@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\bin\Debug\net7.0\AlumniManagement.DAL.deps.json
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\bin\Debug\net7.0\AlumniManagement.DAL.runtimeconfig.json
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\bin\Debug\net7.0\AlumniManagement.DAL.dll
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\bin\Debug\net7.0\AlumniManagement.DAL.pdb
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\obj\Debug\net7.0\AlumniManagement.DAL.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\obj\Debug\net7.0\AlumniManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\obj\Debug\net7.0\AlumniManagement.DAL.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\obj\Debug\net7.0\AlumniManagement.DAL.AssemblyInfo.cs
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\obj\Debug\net7.0\AlumniManagement.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\obj\Debug\net7.0\AlumniManagement.DAL.dll
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\obj\Debug\net7.0\refint\AlumniManagement.DAL.dll
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\obj\Debug\net7.0\AlumniManagement.DAL.pdb
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\obj\Debug\net7.0\AlumniManagement.DAL.genruntimeconfig.cache
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.DAL\obj\Debug\net7.0\ref\AlumniManagement.DAL.dll

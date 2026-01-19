@@ -1,0 +1,11 @@
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.Shared\bin\Debug\net7.0\AlumniManagement.Shared.deps.json
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.Shared\bin\Debug\net7.0\AlumniManagement.Shared.dll
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.Shared\bin\Debug\net7.0\AlumniManagement.Shared.pdb
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.Shared\obj\Debug\net7.0\AlumniManagement.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.Shared\obj\Debug\net7.0\AlumniManagement.Shared.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.Shared\obj\Debug\net7.0\AlumniManagement.Shared.AssemblyInfo.cs
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.Shared\obj\Debug\net7.0\AlumniManagement.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.Shared\obj\Debug\net7.0\AlumniManagement.Shared.dll
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.Shared\obj\Debug\net7.0\refint\AlumniManagement.Shared.dll
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.Shared\obj\Debug\net7.0\AlumniManagement.Shared.pdb
+C:\Users\Admin\Documents\wa\alumnimanagement\AlumniManagement.Shared\obj\Debug\net7.0\ref\AlumniManagement.Shared.dll
