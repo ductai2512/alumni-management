@@ -104,7 +104,7 @@ namespace AlumniManagement.BUS.Services
             if (!string.IsNullOrEmpty(request.Address))
                 alumni.Address = request.Address;
 
-            alumni.UpdatedAt = DateTime.Utc.Now;
+            alumni.UpdatedAt = DateTime.Now;
 
             await _alumniRepository.UpdateAsync(alumni);
             return true;
