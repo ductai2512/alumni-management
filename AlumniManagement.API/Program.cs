@@ -143,6 +143,13 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<AlumniDbContext>();
+
+    await AdminRoleSeeder.SeedAsync(context);
+}
+
 // Auto migrate database on startup
 using (var scope = app.Services.CreateScope())
 {
