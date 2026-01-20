@@ -5,7 +5,7 @@ namespace AlumniManagement.DAL.Data.Seed
 {
     public static class AdminRoleSeeder
     {
-        public static async Task SeedAsync(AppDbContext context)
+        public static async Task SeedAsync(AlumniDbContext context)
         {
             var admin = await context.Accounts
                 .FirstOrDefaultAsync(x => x.Username == "admin");

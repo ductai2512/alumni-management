@@ -145,27 +145,25 @@ app.UseAuthorization();
 app.MapControllers();
 using (var scope = app.Services.CreateScope())
 {
-    var context = scope.ServiceProvider.GetRequiredService<AlumniDbContext>();
-
-    await AdminRoleSeeder.SeedAsync(context);
-}
-
-// Auto migrate database on startup
-using (var scope = app.Services.CreateScope())
-{
     var services = scope.ServiceProvider;
     try
     {
         var context = services.GetRequiredService<AlumniDbContext>();
+
+        // 1️⃣ Migrate trước
         context.Database.Migrate();
         Console.WriteLine("✅ Database migration completed successfully");
+
+        // 2️⃣ Seed sau
+        await AdminRoleSeeder.SeedAsync(context);
     }
     catch (Exception ex)
     {
         var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "❌ An error occurred while migrating the database");
+        logger.LogError(ex, "❌ Error during migration or seeding");
         throw;
     }
 }
+
 
 app.Run();
