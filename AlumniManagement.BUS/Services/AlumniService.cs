@@ -7,6 +7,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AlumniManagement.DAL.Enums;
+
 
 namespace AlumniManagement.BUS.Services
 {
@@ -77,7 +79,7 @@ namespace AlumniManagement.BUS.Services
             return MapToDto(created);
         }
 
-        public async Task<bool> UpdateAsync(int id, UpdateAlumniRequest request)
+       public async Task<bool> UpdateAsync(int id, UpdateAlumniRequest request)
         {
             var alumni = await _alumniRepository.GetByIdAsync(id);
             if (alumni == null)
@@ -89,8 +91,14 @@ namespace AlumniManagement.BUS.Services
             if (request.DateOfBirth.HasValue)
                 alumni.DateOfBirth = request.DateOfBirth.Value;
 
+            // ✅ FIX LỖI GỐC: parse string → enum
             if (!string.IsNullOrEmpty(request.Gender))
-                alumni.Gender = request.Gender;
+            {
+                if (!Enum.TryParse<Gender>(request.Gender, true, out var gender))
+                    throw new InvalidOperationException("Invalid gender value");
+
+                alumni.Gender = gender;
+            }
 
             if (!string.IsNullOrEmpty(request.Phone))
                 alumni.Phone = request.Phone;
@@ -104,7 +112,9 @@ namespace AlumniManagement.BUS.Services
             if (!string.IsNullOrEmpty(request.Address))
                 alumni.Address = request.Address;
 
-            alumni.UpdatedAt = DateTime.Now;
+            // ⚠️ DbContext của bạn đang convert DateTime → UTC
+            // → PHẢI dùng UtcNow
+            alumni.UpdatedAt = DateTime.UtcNow;
 
             await _alumniRepository.UpdateAsync(alumni);
             return true;
