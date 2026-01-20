@@ -3,6 +3,7 @@ using AlumniManagement.BUS.Interfaces;
 using AlumniManagement.BUS.Services;
 using AlumniManagement.DAL.Data;
 using AlumniManagement.DAL.Repositories;
+using AlumniManagement.DAL.Data.Seed;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
